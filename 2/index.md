@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Entry number two, in Markdown
+title: Entry two (in Markdown)
 ---
 
 ## Easier text markup
