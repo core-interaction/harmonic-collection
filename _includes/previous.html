@@ -2,7 +2,8 @@
 {%- for entry in entries %}
 	{%- if entry.url == page.url %}
 		{%- assign current = forloop.index -%}
-		{%- assign previous = current | minus: 2 -%} <!-- Index below starts at 0. -->
+		{%- assign previous = current | minus: 2 -%}
+		{% comment %}Index below starts at 0!{% endcomment %}
 	{%- endif %}
 {%- endfor -%}
 {%- if current > 1 -%}
