@@ -4,7 +4,7 @@
 			<figure>
 				<img src="{{ image.file }}">
 				<figcaption>{{ image.title }}</figcaption>
-				{% include button.html link = image.link title = "Original" %}
+				{% include arrow-link.html link=image.link title="Original" %}
 			</figure>
 		{% endfor %}
 	</section>
