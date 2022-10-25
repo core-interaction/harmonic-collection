@@ -23,11 +23,11 @@ It’s used by *many, many* things now: [Google chats][chats], [Slack][slack], [
 [notion]: https://www.notion.so/help/writing-and-editing-basics
 [wysiwyg]: https://en.wikipedia.org/wiki/WYSIWYG
 
-- It’s **much easier** to read the source.
+- It’s often **much easier** to read the source.
 - It is usually much quicker to write.
 - Your changes (Git’s `diff`) are clear.
 - And overall it is less error-prone.
 
-…than writing all the elements/tags yourself! Markdown does have to be compiled/parsed out into HTML, but a lot of software does this behind the scenes.
+…compared to writing all the elements/tags yourself! Markdown does have to be compiled/parsed out into HTML, but a lot of software does this behind the scenes.
 
 > I *love* Markdown. If there is only one thing you take away from our class, let it be some fluency in `.md`. It’s the [lingua franca](https://en.wikipedia.org/wiki/Lingua_franca) for basic text formatting.
