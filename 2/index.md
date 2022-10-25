@@ -7,9 +7,21 @@ title: Entry number two, in Markdown
 
 Jekyll can use [Markdown](https://www.markdownguide.org/getting-started/) for marking… up text. It has a special *syntax* that is *parsed* into basic HTML, instead of manually writing it all out by hand.
 
+<!-- Note the inline link. -->
+
 ---
 
-It’s used by *many, many* things now: [Google chats](https://support.google.com/chat/answer/7649118?hl=en), [Slack](https://slack.com/help/articles/202288908-Format-your-messages), [Reddit](https://www.reddit.com/wiki/markdown), [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), [Are.na](https://support.are.na/help/what-types-of-content-can-i-save-to-are-dot-na), [Notion](https://www.notion.so/help/writing-and-editing-basics), etc. Sometimes they have their own *flavors* that add special syntax, but the base stuff is the same. Often [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) text editors are just adding Markdown syntax around things!
+It’s used by *many, many* things now: [Google chats][chats], [Slack][slack], [Reddit][reddit], [GitHub][github], [Are.na][arena], [Notion][notion], etc. Sometimes they have their own *flavors* that add special syntax, but the base stuff is the same. Often [WYSIWYG][wysiwyg] text editors are just adding Markdown syntax around things!
+
+<!-- Compared to these “reference style” ones. -->
+
+[chats]: https://support.google.com/chat/answer/7649118?hl=en
+[slack]: https://slack.com/help/articles/202288908-Format-your-messages
+[reddit]: https://www.reddit.com/wiki/markdown
+[github]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[arena]: https://support.are.na/help/what-types-of-content-can-i-save-to-are-dot-na
+[notion]: https://www.notion.so/help/writing-and-editing-basics
+[wysiwyg]: https://en.wikipedia.org/wiki/WYSIWYG
 
 - It’s **much easier** to read the source.
 - It is usually much quicker to write.
