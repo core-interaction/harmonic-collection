@@ -2,4 +2,14 @@
 layout: default
 ---
 
-<h1>{{ site.title }}</h1>
+<header>
+	<h1>{{ site.title }}</h1>
+</header>
+<ul >
+	{% assign entries = site.pages | where: "layout", "entry"  | sort: "path" %}
+	{% for entry in entries %}
+		<li>
+			<a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+		</li>
+	{% endfor %}
+</ul>
